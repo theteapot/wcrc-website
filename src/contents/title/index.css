@@ -1,0 +1,15 @@
+.title {
+  font-weight: bold;
+
+  font-size: 2rem;
+  border-bottom: solid 2px var(--dark-blue);
+}
+
+.subtitle {
+  font-size: 0.75rem;
+}
+
+.title-block {
+  font-family: sans-serif;
+  margin: 1rem 1rem 1rem 1rem;
+}
