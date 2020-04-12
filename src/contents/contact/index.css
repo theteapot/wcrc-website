@@ -16,18 +16,9 @@
   padding: 1rem;
 }
 
-@media (max-width: 700px) {
-  .contact-container {
-    flex-direction: column;
-  }
-
-  .contact-area {
-    border-radius: 3rem 3rem 0 0;
-  }
-}
-
 .contact-details {
-  padding: 1rem;
+  width: inherit;
+  /* margin: 1rem; */
 }
 
 .contact-button {
@@ -60,4 +51,19 @@
 .contact-detail * {
   margin-left: 0.25rem;
   margin-right: 0.25rem;
+}
+
+@media (max-width: 700px) {
+  .contact-container {
+    flex-direction: column;
+  }
+
+  .contact-area {
+    border-radius: 3rem 3rem 0 0;
+  }
+
+  .contact-detail {
+    justify-content: left;
+    font-size: 0.9rem;
+  }
 }
